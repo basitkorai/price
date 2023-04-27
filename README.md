@@ -50,5 +50,5 @@ Next I intend to learn more about CSS Grid.
 ## Author
 
 - Website - Don't have it yet
-- Frontend Mentor - [@basit-flash](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@basit-flash](https://www.frontendmentor.io/profile/basit-flash)
 - Github - [@basit-korai](https://github.com/basit-korai)
