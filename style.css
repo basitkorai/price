@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* COLORS */
+  --cyan: hsl(179, 62%, 43%);
+  --green: hsl(71, 73%, 54%);
+  --gray: hsl(204, 43%, 93%);
+  --blue: hsl(218, 22%, 67%);
+
+  /* FONTS */
+  --font-size: 1rem;
+  --font-family: "Karla", sans-serif;
+}
+
+body {
+  background: var(--gray);
+  font-family: var(--font-family);
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.container {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.signup {
+  background-color: white;
+  box-shadow: 10px 3px 50px 8px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 10px 3px 50px 8px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 10px 3px 50px 8px rgba(0, 0, 0, 0.23);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 720px;
+}
+
+.cards {
+  padding: 1.5rem;
+  min-width: 50%;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
+.community {
+  color: var(--cyan);
+  line-height: 1.5rem;
+}
+
+.community h5 {
+  color: var(--green);
+  margin: 1rem 0;
+}
+
+.subscription {
+  background-color: var(--cyan);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.subscription .price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.price-tag span {
+  font-size: 1rem;
+  color: hsl(204, 43%, 93%, 70%);
+}
+
+.price-tag ~ p {
+  font-size: initial;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.btn {
+  background-color: var(--green);
+  width: 100%;
+  padding: 0.8rem 0;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  box-shadow: 1px 1px 250px black;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.why {
+  background-color: hsl(179, 62%, 43%, 75%);
+  color: #ffffff;
+}
+
+.list-item {
+  list-style-type: none;
+  color: hsl(0, 0%, 100%, 70%);
+  line-height: 1.5rem;
+}
+
+
+@media screen and (min-width: 600px) {
+  .flex {
+    display: flex;
+  }
+
+}
