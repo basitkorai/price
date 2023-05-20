@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/basit-korai/price)
-- Live Site URL: [Click me](https://basit-korai.github.io/price/)
+- Solution URL: [Github](https://github.com/basitkorai/price)
+- Live Site URL: [Click me](https://basitkorai.github.io/price/)
 
 ## My process
 
@@ -51,4 +51,4 @@ Next I intend to learn more about CSS Grid.
 
 - Website - Don't have it yet
 - Frontend Mentor - [@basit-flash](https://www.frontendmentor.io/profile/basit-flash)
-- Github - [@basit-korai](https://github.com/basit-korai)
+- Github - [@basitkorai](https://github.com/basitkorai)
