@@ -100,10 +100,14 @@ h4 {
   color: white;
   box-shadow: 1px 1px 250px black;
   cursor: pointer;
+  transition: all 150ms ease-in-out;
 }
 
-.btn:hover,
 .btn:active {
+  transform: translateY(8px) scale(0.9);
+}
+
+.btn:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -118,10 +122,8 @@ h4 {
   line-height: 1.5rem;
 }
 
-
 @media screen and (min-width: 600px) {
   .flex {
     display: flex;
   }
-
 }
