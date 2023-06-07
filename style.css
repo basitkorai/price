@@ -12,7 +12,8 @@
   /* COLORS */
   --cyan: hsl(179, 62%, 43%);
   --green: hsl(71, 73%, 54%);
-  --gray: hsl(204, 43%, 93%);
+  /* --gray: hsl(204, 43%, 93%); original */
+  --gray: hsl(200, 6%, 10%);
   --blue: hsl(218, 22%, 67%);
 
   /* FONTS */
@@ -34,6 +35,7 @@ main {
 .container {
   width: 90%;
   margin: 1rem auto;
+  /* max-width: 39.6875rem; 635px */
 }
 
 .signup {
@@ -43,24 +45,25 @@ main {
   -moz-box-shadow: 10px 3px 50px 8px rgba(0, 0, 0, 0.23);
   border-radius: 8px;
   overflow: hidden;
-  max-width: 720px;
+  max-width: 702px; /* 635px */
 }
 
 .cards {
-  padding: 1.5rem;
+  padding: 2.1rem 2.5rem;
   min-width: 50%;
 }
 
-h4 {
+h2 {
   margin-bottom: 1rem;
 }
 
 .community {
-  color: var(--cyan);
+  color: var(--blue);
   line-height: 1.5rem;
+  padding: 2.8rem 2.5rem
 }
 
-.community h5 {
+.community h3 {
   color: var(--green);
   margin: 1rem 0;
 }
@@ -84,7 +87,7 @@ h4 {
 }
 
 .price-tag ~ p {
-  font-size: initial;
+  font-size: 0.9rem;
   font-weight: 400;
   margin: 1rem 0;
 }
@@ -92,7 +95,7 @@ h4 {
 .btn {
   background-color: var(--green);
   width: 100%;
-  padding: 0.8rem 0;
+  padding: 1rem 0;
   border: none;
   border-radius: 5px;
   font-family: inherit;
@@ -116,10 +119,15 @@ h4 {
   color: #ffffff;
 }
 
+h4 {
+  margin-bottom: 0.4rem;
+}
+
 .list-item {
   list-style-type: none;
   color: hsl(0, 0%, 100%, 70%);
   line-height: 1.5rem;
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 600px) {
