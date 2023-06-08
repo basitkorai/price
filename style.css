@@ -12,13 +12,26 @@
   /* COLORS */
   --cyan: hsl(179, 62%, 43%);
   --green: hsl(71, 73%, 54%);
-  /* --gray: hsl(204, 43%, 93%); original */
-  --gray: hsl(200, 6%, 10%);
+  --gray: hsl(204, 43%, 93%);
   --blue: hsl(218, 22%, 67%);
 
   /* FONTS */
   --font-size: 1rem;
   --font-family: "Karla", sans-serif;
+}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;            /* 3 */
 }
 
 body {
