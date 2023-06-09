@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/basitkorai/price)
-- Live Site URL: [Click me](https://basitkorai.github.io/price/)
+- Live Site Url: <a href="https://basitkorai.github.io/price/" target="_blank">Click Me</a>
 
 ## My process
 
